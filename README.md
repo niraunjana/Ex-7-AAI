@@ -20,6 +20,7 @@ Step 5: Construct the main program to read the paragraph  and perform text summa
       - Generate and print the original text.<br>
       - Generate and print the text summary using the  Text Summarization function<br>
 <H3>Program:</H3>
+
 ```
 DEVELOPED BY: NIRAUNJANA GAYATHRI G R
 REGISTER NUMBER: 212222230096
