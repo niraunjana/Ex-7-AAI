@@ -3,7 +3,10 @@
 <H3>EX. NO.7</H3>
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of Text  Summarization</H1>
-<H3>Aim: to perform automatic text summarization using Natural Language Processing (NLP) techniques. </H3> 
+
+## Aim: 
+To perform automatic text summarization using Natural Language Processing (NLP) techniques. </H3> 
+
  <BR>
 <h3>Algorithm:</h3>
 Step 1 Import necessary libraries for natural language processing tasks.<BR>
@@ -20,6 +23,9 @@ Step 5: Construct the main program to read the paragraph  and perform text summa
 ```
 DEVELOPED BY: NIRAUNJANA GAYATHRI G R
 REGISTER NUMBER: 212222230096
+```
+
+```
 !pip install nltk
 import nltk
 from nltk.corpus import stopwords
@@ -39,6 +45,7 @@ def preprocess_text(text):
 	stemmed_words= [stemmer. stem(word) for word in filtered_words]
 	return stemmed_words
 ```
+
 ```
 def generate_summary(text,num_sentences=3):
 
@@ -61,6 +68,7 @@ def generate_summary(text,num_sentences=3):
 
 	return ' '. join(summary_sentences)
  ```
+
 ```
 if __name__=="__main__":
 	input_text ="""
